@@ -1,0 +1,107 @@
+@media (max-width: 768px){
+    .conteudo-geral {
+        flex-direction: column;
+    }
+
+    .container-informacoes .description {
+        font-size: 25px;
+    }
+
+    .container-informacoes .btn {
+        margin-top: 10px;
+        width: 300px;
+        font-size: 25px;
+    }
+
+    .contact {
+        justify-content: center;
+    }
+}
+
+@media(max-width: 425px){
+    .conteudo-geral {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imagem-principal {
+        height: 250px;
+        width: 300px;
+    }
+
+    .container-informacoes .titile {
+        font-size: 25px;
+        margin: 0 20px;
+    }
+
+    .container-informacoes .description {
+        font-size: 20px;
+    }
+
+    .container-informacoes .btn {
+        width: 300px;
+        margin-top: 20px;
+    }
+
+    .contact {
+        justify-content: center;
+       
+    }
+
+
+}
+
+@media (max-width: 375px){
+    body:before {
+        background-image: url(../images/bg-mobile.svg);
+    }
+    
+    .cabecalho {
+        padding: 0 auto;
+        margin: 0 10px;
+    }
+
+    .cabecalho .logo  {
+       height: 150px;
+       width: 200px;
+    }
+    
+    .conteudo-geral {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .imagem-principal {
+        height: 250px;
+        width: 300px;
+        margin-bottom: 15px;
+    }
+
+    .container-informacoes .titile {
+        font-size: 28px;
+        margin: 0 30px;
+    }
+
+    .container-informacoes .description {
+        font-size: 18px;
+        margin: 15px 30px;
+        align-items: center;
+    }
+
+    .container-informacoes .btn {
+        width: 250px;
+        font-size: 18px;
+        margin-top: 15px
+    }
+
+    .contact {
+        justify-content: center;
+    }
+
+    .contact .icon {
+       height: 2.5em;
+    }
+
+
+}
